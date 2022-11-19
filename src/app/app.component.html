@@ -1,0 +1,14 @@
+<h1>
+  {{title}}!
+</h1>
+
+<div>
+  <canvas
+      baseChart
+      [type]="'bar'"
+      [datasets]="chartData"
+      [labels]="labels"
+      [options]="chartOptions"
+      [legend]="true">
+  </canvas>
+</div>
